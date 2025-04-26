@@ -1,17 +1,40 @@
+# Steps to Setup the Starter Template
 
-npm: node package manager -> 
-- Think of npm like a supermarket for JavaScript tools.
-- It installs packages (tools/libraries) that your project needs.
-- It also keeps track of versions, dependencies, and updates.
+1. **Clone the project**
 
-npx: node package executor -> 
-- npx is like a rental service. You don’t need to install a package to use it.
-- You just run it directly, and it handles everything behind the scenes.
-- Useful when you want to run a package just once or try something quickly.
+   ```bash
+   git clone https://github.com/hossain-asif/Express_TypeScript_Template.git <ProjectName>
+   ```
 
-- npm handles package installation, versioning, and dependency resolution.
-- npx is part of npm (since npm v5.2+).
-- npx is perfect for running CLI tools without global installs.
+2. **Move into the project directory**
+
+
+    ```bash
+    cd <ProjectName>
+    ```
+
+3. **Install npm dependencies**
+    ```bash
+    npm i
+    ```
+
+4. **Create a new .env file in the root directory and add the PORT environment variable**
+
+    ```bash
+    echo PORT=3000 >> .env
+    ```
+
+5. **Start the Express server**
+
+    ```bash
+    npm run dev
+    ```
+
+
+
+
+
+
 
 
 `package.json` file : `npm init -y`
